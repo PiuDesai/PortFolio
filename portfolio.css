@@ -1,0 +1,114 @@
+body {
+  background-image: url("bg.jpg"); /* local file */
+   background-repeat: no-repeat;
+  background-size: cover; 
+  font-family: Comic Sans MS;      
+  
+}
+
+
+#Main_Heading {
+  color: darkblue;
+  background-image: url("background.jpg");
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 11px;
+
+  border: 4px double darkblue;  /* Double line border */
+  border-radius: 11px;
+}
+
+#profile_photo{
+  
+  border: 2px solid black; /* add border */
+  border-radius: 10px;     /* rounded corners */
+  box-shadow: 5px 5px 10px gray; /* shadow */
+  display: block;          /* block-level element */
+  margin: 20px auto;
+}
+nav{
+  text-align: center;
+
+  border: 2px dotted #444;       /* purple border */
+  border-radius: 14px;
+  padding: 17px 25px; 
+
+  }
+ nav a {
+      color: white;
+      text-decoration: none;
+      word-spacing: 10px;
+      margin: 0 25px;
+      font-size: 25px;
+      font-weight: bold;
+      transition: 0.3s;
+      border: 2px solid ;       /* purple border */
+  border-radius: 12px; 
+  padding: 7px 7px; 
+    }
+
+    nav a:hover {
+     background-color: #8a56cc;
+      color: #ff9800;
+    }
+
+section {
+  padding: 30px;
+  text-align: left;
+}
+
+section h2 {
+  color: #444;
+background-color: #b19cd9;
+  margin-bottom: 15px;
+text-transform:uppercase;
+text-align: center;
+ border: 4px neon black;  /* Double line border */
+  border-radius: 11px;
+
+
+
+}
+
+section p, section ul {
+  font-size: 20px;
+  font-color: darkblue;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: disc;
+  padding: 0;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+
+  .certificate {
+    width: 180px;
+    height: 120px;  /* fix height */
+    object-fit: cover; /* crop nicely without stretching */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  .sports-certificate {
+  width: 200px;       /* fixed width */
+  height: 150px;      /* fixed height */
+  object-fit: cover;  /* crop extra neatly */
+  border: 2px solid #666;
+  border-radius: 6px;
+}
+.course-certificate {
+    width: 200px;
+    height: 150px;
+    object-fit: cover; /* keeps uniform look */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+
